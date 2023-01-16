@@ -273,7 +273,7 @@ shifth = 0
 
 if file is not None:
     # converting pdf into images for every page of the pdf
-    images = convert_from_path("./tempDir/"+file.name, poppler_path="./poppler-0.68.0/bin")
+    images = convert_from_path("./tempDir/"+file.name)
 
     # Extracting the image of each pages from the pdf
     no_of_pages = len(images)
