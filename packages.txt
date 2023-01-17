@@ -8,4 +8,4 @@ libsm6
 libxext6
 libgl1
 libxcb-xinerama0
-
+libqt5x11extras5
