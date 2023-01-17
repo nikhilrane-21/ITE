@@ -38,6 +38,7 @@ networkx==2.8.8
 numpy==1.23.5
 oauthlib==3.2.2
 opencv-python-headless
+opencv-contrib-python
 opt-einsum==3.3.0
 packaging==21.3
 pandas==1.5.2
