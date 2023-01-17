@@ -25,6 +25,8 @@ import streamlit as st
 # subprocess.Popen(["Xvfb", ":99", "-screen", "0", "1366x768x24"])
 # os.environ["DISPLAY"] = ":99"
 
+os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'
+
 st.set_page_config(
     page_title='Welcome to Text Extractor from Invoices',
     page_icon=':robot:',
