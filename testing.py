@@ -18,12 +18,12 @@ import argparse
 from pdf2image import convert_from_path
 from pytesseract import image_to_string, image_to_data
 import streamlit as st
-import os
-import subprocess
+# import os
+# import subprocess
 
-# Start Xvfb
-subprocess.Popen(["Xvfb", ":99", "-screen", "0", "1366x768x24"])
-os.environ["DISPLAY"] = ":99"
+# # Start Xvfb
+# subprocess.Popen(["Xvfb", ":99", "-screen", "0", "1366x768x24"])
+# os.environ["DISPLAY"] = ":99"
 
 st.set_page_config(
     page_title='Welcome to Text Extractor from Invoices',
