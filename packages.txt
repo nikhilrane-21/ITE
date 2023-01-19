@@ -3,3 +3,4 @@ tesseract-ocr-por
 poppler-utils
 libgl1-mesa-glx
 libxcb-xinerama0-dev
+libgtk-3-dev
