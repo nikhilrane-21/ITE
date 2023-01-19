@@ -10,7 +10,7 @@ import img2pdf
 import pytesseract
 import math
 import os
-os.environ['QT_QPA_PLATFORM'] = 'wx'
+os.environ['QT_QPA_PLATFORM'] = 'gtk'
 import cv2
 import numpy as np
 from typing import Tuple, Union
